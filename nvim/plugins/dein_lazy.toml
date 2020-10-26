@@ -1,8 +1,8 @@
 # ==== language ===============================================================
 # ansible
 [[plugins]]
-repo = "peorifducks/ansible-vim"
-
+repo = "pearofducks/ansible-vim"
+build = "./UltiSnips/generate.sh"
 
 # ==== searh ===================================
 # fzf
