@@ -1,9 +1,15 @@
-" ==== searh ===================================
-" fzf
+# ==== language ===============================================================
+# ansible
+[[plugins]]
+repo = "peorifducks/ansible-vim"
+
+
+# ==== searh ===================================
+# fzf
 [[plugins]]
 repo = 'junegunn/fzf'
 build = './install --all'
- 
-" fzf.vim
+
+# fzf.vim
 [[plugins]]
 repo = 'junegunn/fzf.vim'
