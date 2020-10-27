@@ -4,6 +4,8 @@
 " vim-lsp-settings
 let g:lsp_settings_servers_dir = '~/.vim/vim-lsp-settings/servers'
 
+" vim-ansible
+let g:ansible_unindent_after_newline = 1
 " ===== Tool =================================================================
 " vim-gitguitter
 " git 差分を表示
