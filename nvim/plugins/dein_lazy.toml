@@ -18,3 +18,12 @@ repo = 'junegunn/fzf.vim'
 # white space の自動削除
 [[plugins]]
 repo = "bronson/vim-trailing-whitespace"
+
+# ==== tool ===================================================================
+# git
+[[plugins]]
+repo = "airblade/vim-gitgutter"
+
+[[plugins]]
+repo = "tpope/vim-fugitive"
+

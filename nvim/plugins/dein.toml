@@ -16,6 +16,11 @@ repo = "vim-airline/vim-airline-themes"
 repo = "preservim/nerdtree"
 hook_post_source = "let NERDTreeShowHidden=1"
 
+[[plugins]]
+repo = "Xuyuanp/nerdtree-git-plugin"
+
+[[plugins]]
+repo = "jistr/vim-nerdtree-tabs"
 
 # ==== editor ================================================================
 # theme
