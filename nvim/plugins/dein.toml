@@ -36,6 +36,10 @@ hook_post_source = "let g:indent_guides_enable_on_vim_startup=1"
 [[plugins]]
 repo = "ryanoasis/vim-devicons"
 
+# indent guide
+[[plugins]]
+repo = "nathanaelkane/vim-indent-guides"
+
 # ==== Language Server Protocol ============================================== 
 # manager
 ## vim-lsp

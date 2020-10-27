@@ -13,3 +13,8 @@ build = './install --all'
 # fzf.vim
 [[plugins]]
 repo = 'junegunn/fzf.vim'
+
+# ==== editor =================================================================
+# white space の自動削除
+[[plugins]]
+repo = "bronson/vim-trailing-whitespace"
