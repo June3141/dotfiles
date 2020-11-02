@@ -4,6 +4,10 @@
 repo = "pearofducks/ansible-vim"
 build = "./UltiSnips/generate.sh"
 
+# plantUML
+[[plugins]]
+repo = "aklt/plantuml-syntax"
+
 # ==== searh ===================================
 # fzf
 [[plugins]]
@@ -27,3 +31,10 @@ repo = "airblade/vim-gitgutter"
 [[plugins]]
 repo = "tpope/vim-fugitive"
 
+# open browser
+[[plugins]]
+repo = "tyru/open-browser.vim"
+
+# markdown preview
+[[plugins]]
+repo = "previm/previm"
