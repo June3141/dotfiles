@@ -17,4 +17,10 @@ let g:gitgutter_highlight_lines = 1
 set updatetime=300
 
 " open-browser.vim
-let g:openbrowser_browser_commands = [ {"name": "firefox-developer-edition",  "args": ['{browser}', '{uri}']} ]
+let g:openbrowser_browser_commands = [
+      \ {"name": "firefox-developer-edition", 
+      \  "args": ["{browser}", "{uri}"]} 
+      \ ]
+
+" previm
+let g:previm_open_cmd = "firefox-developer-edition"
