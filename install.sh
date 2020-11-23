@@ -7,3 +7,6 @@ do
 
   echo "$f"
 done
+
+ln -s $(pwd)/xmonad ~/.xmonad
+ln -s $(pwd)/i3 ~/.config/i3

@@ -45,7 +45,7 @@ repo = "ryanoasis/vim-devicons"
 [[plugins]]
 repo = "nathanaelkane/vim-indent-guides"
 
-# ==== Language Server Protocol ============================================== 
+# ==== Language Server Protocol ==============================================
 # manager
 ## vim-lsp
 [[plugins]]
@@ -78,3 +78,7 @@ hook_add = '''
 
 [[plugins]]
 repo = "lighttiger2505/deoplete-vim-lsp"
+
+# ==== Tmux ===================================================================
+[[plugins]]
+repo = "christoomey/vim-tmux-navigator"
