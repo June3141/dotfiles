@@ -1,0 +1,64 @@
+# general settings
+format = """\
+    $username\
+    $hostname\
+    $directory\
+    $time\
+    \
+    $line_break\
+
+    $git_branch\
+    $git_state\
+    $git_status\
+
+    $docker_context\
+    $kubernetes\
+    $helm\
+    $terraform\
+    $aws\
+
+    $golang\
+    $nodejs\
+    $python\
+    $rust\
+    $package\
+
+    $memory_usage\
+    \
+    $line_break\
+    $status\
+    $character\
+"""
+
+[character]
+success_symbol = "[❯](bold blue)"
+
+[directory]
+style = "white bold"
+
+[git_status]
+format = "[$all_status$ahead_behind]($style) "
+
+[hostname]
+format = "[$hostname]($style): "
+
+[memory_usage]
+format = "\\[RAM [$symbol$ram]($style)\\]"
+disabled = false
+show_percentage = true
+threshold = -1
+style = "yellow bold dimmed"
+
+[status]
+format = "[\\[$symbol $status\\]]($style)"
+symbol = "💣"
+disabled = false
+
+[time]
+disabled = false
+style = "white"
+format = "🕙[$time]($style) "
+utc_time_offset = "+9"
+
+[username]
+style_user = "bold white"
