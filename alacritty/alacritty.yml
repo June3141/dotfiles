@@ -1,0 +1,33 @@
+---
+env:
+  TERM: xterm-256color
+  LANG: ja_JP.UTF-8
+  LC_TYPE: ja_JP.UTF-8
+font:
+  # Normal (roman) font face
+  # Default:
+  #   - (macOS) Menlo
+  #   - (Linux) monospace
+  #   - (Windows) Consolas
+  # family: monospace
+  # The `style` can be specified to pick a specific face.
+  normal:
+    family: NotoSansMono Nerd Font
+    style: Regular
+
+  # Bold font face
+  bold:
+    family: NotoSansMono Nerd Font
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: NotoSansMono Nerd Font
+    style: Italic
+
+  # Point size
+  size: 9.0
+
+key_bindings:
+  - { key: Minus, mods: Control|Shift, action: IncreaseFontSize }
+  - { key: Plus, mods: Control|Shift, action: IncreaseFontSize }
