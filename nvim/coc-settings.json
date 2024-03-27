@@ -1,0 +1,35 @@
+{
+        "coc.preferences.formatOnSave": true,
+        "diagnostic.virtualText": true,
+        "diagnostic.virtualTextCurrentLineOnly": false,
+        "floatFactory.floatConfig": {
+                "border": true
+        },
+        "inlayHint.enable": true,
+        "inlayHint.enableParameter": true,
+        "suggest.completionItemKindLabels": {
+                "function": "󰊕 ",
+                "variable": " ",
+                "module": "󰕳 ",
+                "snippet": " ",
+                "struct": " ",
+                "keyword": " ",
+                "property": " ",
+                "method": " ",
+                "field": " ",
+                "interface": " ",
+                "folder": " ",
+                "file": " ",
+                "class": " ",
+                "constant": " "
+        },
+        "suggest.floatConfig": {
+                "border": true
+        },
+        "rust-analyzer.diagnostics.enable": true,
+        "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+        "rust-analyzer.inlayHints.chainingHints.enable": true,
+        "rust-analyzer.inlayHints.typeHints.enable": true,
+        "rust-analyzer.inlayHints.parameterHints.enable": true,
+        "rust-analyzer.server.path": "~/.cargo/bin/rust-analyzer"
+}
